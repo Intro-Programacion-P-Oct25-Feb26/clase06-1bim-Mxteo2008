@@ -22,7 +22,7 @@ public class Ejemplo011 {
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese el nombre del día de la semana");
         String cadena = entrada.nextLine();
-        cadena = cadena.toLowerCase();
+        cadena = cadena.toLowerCase(); // pone la misma cadena pero en minusculas
         switch(cadena){
             case "lunes":
                 System.out.printf("%s es el primer día "
